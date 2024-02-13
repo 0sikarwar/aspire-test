@@ -1,0 +1,38 @@
+@import "../../styles/variables";
+
+.card-slider {
+  padding-left: 24px;
+  margin-top: 20px;
+  .carousel {
+    .slide {
+      transform: translateX(-40px);
+      scale: 0.9;
+      transition-property: transform, scale;
+      transition-duration: 1s;
+      transition-timing-function: ease-out;
+      pointer-events: none;
+      &.selected {
+        transform: translateX(0);
+        scale: 1;
+        pointer-events: auto;
+      }
+    }
+    .control-dots {
+      right: 24px;
+      .dot {
+        opacity: 0.15;
+        margin: 0 4px;
+        transition-property: opacity, width, border-radius, background-color;
+        transition-duration: 1s;
+        transition-timing-function: ease-out;
+
+        &.selected {
+          width: 16px;
+          border-radius: 8px;
+          opacity: 1;
+          background-color: $lime-green;
+        }
+      }
+    }
+  }
+}

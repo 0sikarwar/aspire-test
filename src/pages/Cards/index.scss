@@ -1,8 +1,9 @@
 @import "../../styles/variables";
+@import "react-responsive-carousel/lib/styles/carousel.min.css";
+
 .cardspage {
   background-color: $midnight-blue;
   color: $white;
-  padding: 0 24px 24px;
 
   &-head {
     margin-bottom: 30px;

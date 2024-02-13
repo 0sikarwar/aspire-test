@@ -1,0 +1,25 @@
+@import "../../styles/variables";
+
+.tab-list {
+  display: flex;
+  flex-wrap: wrap;
+  &-item {
+    width: fit-content;
+    height: 25px;
+    margin-right: 20px;
+    font-size: 13px;
+    font-weight: 300;
+    opacity: 0.6;
+    transition-property: border-bottom, opacity, font-weight;
+    transition-duration: 0.5s;
+
+    &.active-tab {
+      border-bottom: 2px solid $cyan-blue;
+      opacity: 1;
+      font-weight: 700;
+    }
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}

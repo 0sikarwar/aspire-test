@@ -1,0 +1,114 @@
+@import "../../styles/variables";
+.card-wrapper {
+  padding: 30px 0 40px;
+  position: relative;
+  margin-right: 36px;
+
+  &-show {
+    background-color: $white;
+    color: $lime-green;
+    position: absolute;
+    top: 4px;
+    right: 0;
+    height: 40px;
+    border-radius: 6px;
+    border-bottom-right-radius: 0;
+    display: flex;
+    padding: 0px 10px 15px;
+    font-size: 12px;
+    font-weight: 700;
+    align-items: center;
+  }
+
+  &-eye {
+    width: 16px !important;
+    height: 16px;
+    margin-right: 8px;
+  }
+
+  .card-component {
+    position: relative;
+    border-radius: 12px;
+    width: 100%;
+    height: 210px;
+    color: $white;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 18% 24px 12%;
+
+    &.green-card {
+      background-color: $lime-green;
+    }
+    &.blue-card {
+      background-color: $deep-sky-blue;
+    }
+    &.gray-card {
+      background-color: $charcoal-gray;
+    }
+
+    &-logo {
+      position: absolute;
+      top: 24px;
+      right: 24px;
+      width: 25% !important;
+      height: 30px;
+    }
+    &-user {
+      font-size: 22px;
+      text-align: left;
+      margin-bottom: 30px;
+    }
+    &-number {
+      display: flex;
+      margin-bottom: 20px;
+      letter-spacing: 2px;
+      height: 20px;
+    }
+    &-dots {
+      span {
+        font-size: 12px;
+        margin-right: 14px;
+      }
+    }
+    &-digits {
+    }
+    &-security {
+      display: flex;
+      width: 65% !important;
+      align-items: flex-end;
+      height: 22px;
+    }
+    &-expiry {
+      margin-right: 16px;
+    }
+    &-cvv {
+      span {
+        font-size: 28px;
+        letter-spacing: 2px;
+        line-height: 18px;
+        display: inline-block;
+        transform: translateY(10px);
+      }
+    }
+    &-provider {
+      position: absolute;
+      bottom: 24px;
+      right: 24px;
+      height: 20px;
+      width: auto !important;
+    }
+    &.data-visible {
+      .card-component-cvv {
+        span {
+          font-size: 14px;
+          transform: translateY(0);
+        }
+      }
+      .card-component-dots {
+        span {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
