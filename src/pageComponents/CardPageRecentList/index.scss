@@ -1,0 +1,22 @@
+@import "../../styles/variables";
+.card-recent-container {
+  margin-top: 24px;
+  &-accordian {
+    position: relative;
+    z-index: 1;
+    border-radius: 12px;
+    background-color: $white;
+  }
+  &-viweall {
+    padding: 20px 0 10px;
+    margin-top: -10px;
+    text-align: center;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-color: $mint-green;
+    color: $lime-green;
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+  }
+}

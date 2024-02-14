@@ -2,9 +2,18 @@
 @import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 .cardspage {
-  background-color: $midnight-blue;
   color: $white;
-
+  &-top-container {
+    position: fixed;
+    padding-top: 30px;
+    &-logo {
+      position: absolute;
+      top: 10px;
+      right: 24px;
+      width: 25px;
+      height: 25px;
+    }
+  }
   &-head {
     margin-bottom: 30px;
     font-weight: 600;
@@ -43,5 +52,29 @@
         width: 16px;
       }
     }
+  }
+  .card-details {
+    color: $midnight-blue;
+    padding: 24px;
+    &-heading {
+      font-size: 14px;
+      font-weight: 500;
+      margin-right: 8px;
+    }
+    p {
+      margin: 10px 0;
+      font-size: 13px;
+      font-weight: 300;
+    }
+  }
+  &-bottom-container {
+    position: relative;
+    top: calc(100vh - calc(100vh - 458px));
+    min-height: calc(100vh - 458px);
+    background-color: $white;
+    border-radius: 16px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-bottom: 80px;
   }
 }

@@ -1,0 +1,30 @@
+@import "../../styles/variables";
+
+.cards-actionsbar {
+  padding: 24px 0;
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $light-sky-blue;
+
+  &-item {
+    width: 62px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  &-logo {
+    width: 32px;
+    height: 32px;
+  }
+  &-caption {
+    font-size: 13px;
+    font-weight: 300;
+    color: $midnight-blue;
+    text-align: center;
+  }
+}

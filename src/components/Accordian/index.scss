@@ -1,0 +1,49 @@
+@import "../../styles/variables";
+
+.accordian {
+  border: 1px solid $white-smoke;
+  border-radius: 12px;
+  &-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $baby-blue;
+    padding: 24px;
+    border-radius: 12px;
+    border-bottom: 1px solid $white-smoke;
+
+    &-content {
+      align-items: center;
+      display: flex;
+    }
+  }
+  &-logo {
+    margin-right: 16px;
+    width: 24px;
+    height: 24px;
+  }
+  &-heading {
+    font-size: 14px;
+    color: $midnight-blue;
+    font-weight: 500;
+  }
+  &-arrow {
+    width: 20px;
+    height: 20px;
+    transform: rotate(0);
+    transition: transform 0.5s;
+  }
+  &-content {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s;
+  }
+  &.open {
+    .accordian-content {
+      height: fit-content;
+    }
+    .accordian-arrow {
+      transform: rotate(180deg);
+    }
+  }
+}

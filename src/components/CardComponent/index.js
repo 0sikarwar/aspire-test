@@ -37,7 +37,7 @@ const CardComponent = ({ userName, cardNumber, provider, expiry, cvv, bg }) => {
         <div className="card-component-security">
           <span className="card-component-expiry">Thru: {expiry}</span>
           <p className="card-component-cvv">
-            CVV: <span>{showData ? cvv : "***"}</span>
+            CVV: <span>***</span>
           </p>
         </div>
         <img
