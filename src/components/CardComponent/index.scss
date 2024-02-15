@@ -3,6 +3,8 @@
   padding: 30px 0 40px;
   position: relative;
   margin-right: 36px;
+  opacity: 1;
+  transition: opacity 0.5s;
 
   &-show {
     background-color: $white;
@@ -35,16 +37,6 @@
     font-size: 14px;
     font-weight: 700;
     padding: 18% 24px 12%;
-
-    &.green-card {
-      background-color: $lime-green;
-    }
-    &.blue-card {
-      background-color: $deep-sky-blue;
-    }
-    &.gray-card {
-      background-color: $charcoal-gray;
-    }
 
     &-logo {
       position: absolute;
@@ -104,5 +96,8 @@
         }
       }
     }
+  }
+  &.freezed-card {
+    opacity: 0.5;
   }
 }

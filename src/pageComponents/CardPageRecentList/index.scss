@@ -19,4 +19,11 @@
     font-weight: 600;
     position: relative;
   }
+  &-notfound {
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+    color: $midnight-blue;
+    font-weight: 700;
+  }
 }

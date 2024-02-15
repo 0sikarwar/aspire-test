@@ -8,10 +8,17 @@ const providerLogoMap = {
   visa: visaLogo,
 };
 
-const CardComponent = ({ userName, cardNumber, provider, expiry, cvv, bg }) => {
+const CardComponent = ({
+  userName,
+  cardNumber,
+  provider,
+  expiry,
+  bg,
+  isFreezed,
+}) => {
   const [showData, setShowData] = useState(false);
   return (
-    <div className={`card-wrapper ${bg}-card-wrapper`}>
+    <div className={`card-wrapper${isFreezed ? " freezed-card" : ""}`}>
       <div
         className="card-wrapper-show"
         onClick={() => setShowData((prev) => !prev)}
@@ -20,9 +27,8 @@ const CardComponent = ({ userName, cardNumber, provider, expiry, cvv, bg }) => {
         Show card number
       </div>
       <div
-        className={`card-component ${bg}-card${
-          showData ? " data-visible" : ""
-        }`}
+        className={`card-component${showData ? " data-visible" : ""}`}
+        style={{ backgroundColor: bg || "black" }}
       >
         <img className="card-component-logo" src={fullLogo} alt="Aspire" />
         <p className="card-component-user">{userName}</p>

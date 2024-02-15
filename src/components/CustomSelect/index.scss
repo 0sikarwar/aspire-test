@@ -1,0 +1,43 @@
+@import "../../styles/variables";
+
+.custom-select {
+  position: relative;
+  display: flex;
+
+  .selected-option {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid $ash-gray;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  &-item {
+    margin-left: 12px;
+    position: relative;
+    width: 120px;
+  }
+
+  .options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: $white;
+    border: 1px solid $ash-gray;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    z-index: 1;
+
+    span {
+      display: block;
+      padding: 8px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $white-smoke;
+      }
+    }
+  }
+}

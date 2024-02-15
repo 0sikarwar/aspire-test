@@ -35,7 +35,7 @@ const navList = [
 ];
 
 const Navbar = () => {
-  const [activeUrl, setActiveUrl] = useState("/");
+  const [activeUrl] = useState("/");
   return (
     <div className="navbar">
       {navList.map((item, index) => {

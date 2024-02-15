@@ -22,6 +22,7 @@ const TransectionListItem = ({ storeType, storeName, date, amount, type }) => {
           <img
             src={logoTypeMap[storeType].logo}
             className="transection-listitem-storetype-logo"
+            alt=""
           />
         </div>
         <div className="transection-listitem-detail">
