@@ -8,6 +8,7 @@ https://0sikarwar.github.io/aspire-test/
 
 - Initially, four cards are rendered, with three being debit cards.
 - Actions like adding, freezing, and deleting cards sync with local storage.
+- If only one card left that will not be deleted. Instead that will be visible in both tabs.
 
 ## implemented feature
 

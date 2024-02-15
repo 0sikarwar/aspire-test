@@ -52,6 +52,16 @@ const CardsPage = () => {
   useEffect(() => {
     toggleResetSlider();
   }, [activeTab]);
+  const getSliderData = () => {
+    let list = cardsList;
+    if (activeTab.value === "dc") {
+      list = cardsList.filter((item) => item.category === activeTab.value);
+      if (list.length === 0) {
+        list = cardsList;
+      }
+    }
+    return list;
+  };
   return (
     <div className="cardspage">
       <Navbar />
@@ -83,11 +93,7 @@ const CardsPage = () => {
         {cardsList && (
           <CardPageSlider
             setActiveCard={setActiveCard}
-            sliderData={
-              activeTab.value === "dc"
-                ? cardsList.filter((item) => item.category === activeTab.value)
-                : cardsList
-            }
+            sliderData={getSliderData()}
           />
         )}
       </div>

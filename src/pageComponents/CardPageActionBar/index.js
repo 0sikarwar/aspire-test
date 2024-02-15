@@ -55,6 +55,11 @@ const CardPageActionBar = ({ activeCard, setActiveCard }) => {
         setActiveCard({ ...activeCard, isFreezed: !activeCard.isFreezed });
         break;
       case "cancel_card":
+        if (cardsData.length === 1) {
+          window.alert("Cannot delete as it is last card.");
+          break;
+        }
+
         if (window.confirm("Are you sure you want to delete the card?")) {
           temp.splice(index, 1);
           setCardsData(temp);
