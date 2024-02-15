@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aspire-test/static/css/main.8fc303b0.css",
-    "main.js": "/aspire-test/static/js/main.2eccc08e.js",
+    "main.js": "/aspire-test/static/js/main.7451c015.js",
     "static/media/full_logo.svg": "/aspire-test/static/media/full_logo.ca4f3cccb5e75e4d6dcbadbfa9b8f3b9.svg",
     "static/media/spend_limit.svg": "/aspire-test/static/media/spend_limit.2fcd3ac92d2bf8d05c3502f507fc04ea.svg",
     "static/media/transaction_logo.svg": "/aspire-test/static/media/transaction_logo.ee07a1b54475fadfb52f54fb177b8097.svg",
@@ -26,10 +26,10 @@
     "static/media/down_arrow.svg": "/aspire-test/static/media/down_arrow.6120f65101a5c87261290d2d452dc806.svg",
     "static/media/chevron_right.svg": "/aspire-test/static/media/chevron_right.b0577e9154ef085853ac.svg",
     "main.8fc303b0.css.map": "/aspire-test/static/css/main.8fc303b0.css.map",
-    "main.2eccc08e.js.map": "/aspire-test/static/js/main.2eccc08e.js.map"
+    "main.7451c015.js.map": "/aspire-test/static/js/main.7451c015.js.map"
   },
   "entrypoints": [
     "static/css/main.8fc303b0.css",
-    "static/js/main.2eccc08e.js"
+    "static/js/main.7451c015.js"
   ]
 }
