@@ -36,7 +36,7 @@
     color: $white;
     font-size: 14px;
     font-weight: 700;
-    padding: 18% 24px 12%;
+    padding: 60px 24px 12%;
 
     &-logo {
       position: absolute;
@@ -54,6 +54,7 @@
       display: flex;
       margin-bottom: 20px;
       letter-spacing: 2px;
+      flex-wrap: wrap;
       height: 20px;
     }
     &-dots {
@@ -66,12 +67,11 @@
     }
     &-security {
       display: flex;
-      width: 65% !important;
+      width: 75%;
+      max-width: 210px;
       align-items: flex-end;
+      justify-content: space-between;
       height: 22px;
-    }
-    &-expiry {
-      margin-right: 16px;
     }
     &-cvv {
       span {

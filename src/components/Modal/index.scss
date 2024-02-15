@@ -20,7 +20,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     position: relative;
     width: 90%;
-    height: 250px;
+    min-height: 280px;
     overflow: auto;
 
     &-close {

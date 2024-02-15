@@ -55,6 +55,7 @@ const AddNewCard = ({ isModalOpen, setIsModalOpen }) => {
       isOpen={isModalOpen}
       onClose={() => setIsModalOpen(false)}
       onSubmit={handleSubmit}
+      title="Create card"
     >
       <div className="add-card-container">
         <label htmlFor="name">

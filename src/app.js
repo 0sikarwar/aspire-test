@@ -8,7 +8,6 @@ import { cardsData } from "./utils/data/cardsData";
 const AppRouter = () => {
   const { setCardsData } = useAppContext();
   useEffect(() => {
-    debugger;
     let localData = getFromLocalStorage(localStorageCardKey);
     if (!localData) {
       addToLocalStorage(localStorageCardKey, cardsData);

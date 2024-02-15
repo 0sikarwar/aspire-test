@@ -6,6 +6,7 @@ const Modal = ({
   onClose = () => void 0,
   onSubmit = () => void 0,
   children,
+  title,
 }) => {
   const handleSubmit = () => {
     onSubmit();
@@ -22,7 +23,7 @@ const Modal = ({
             <span className="modal-close" onClick={onClose}>
               &times;
             </span>
-            <h2>Modal Title</h2>
+            <h2>{title}</h2>
             {children}
             <div className="modal-submit" onClick={handleSubmit}>
               Submit

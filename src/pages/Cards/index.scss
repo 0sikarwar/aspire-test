@@ -3,6 +3,8 @@
 
 .cardspage {
   color: $white;
+  background-color: $midnight-blue;
+
   &-top-container {
     position: fixed;
     padding-top: 30px;
@@ -76,5 +78,6 @@
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     padding-bottom: 80px;
+    border: 1px solid $white-smoke;
   }
 }
