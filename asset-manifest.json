@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/aspire-test/static/css/main.98f86d34.css",
+    "main.js": "/aspire-test/static/js/main.0d304520.js",
+    "static/media/full_logo.svg": "/aspire-test/static/media/full_logo.ca4f3cccb5e75e4d6dcbadbfa9b8f3b9.svg",
+    "static/media/spend_limit.svg": "/aspire-test/static/media/spend_limit.2fcd3ac92d2bf8d05c3502f507fc04ea.svg",
+    "static/media/transaction_logo.svg": "/aspire-test/static/media/transaction_logo.ee07a1b54475fadfb52f54fb177b8097.svg",
+    "static/media/visa_logo.svg": "/aspire-test/static/media/visa_logo.4d8e68b6266c2c97fb1be149942910bf.svg",
+    "static/media/card_detail_logo.svg": "/aspire-test/static/media/card_detail_logo.0104285d070280af2409797b3043e5f4.svg",
+    "static/media/profile.svg": "/aspire-test/static/media/profile.7323a3ca3bdf78aa19759805acc7cd35.svg",
+    "static/media/freeze_card.svg": "/aspire-test/static/media/freeze_card.06bd5e7f1ce2515b102ee909885c2536.svg",
+    "static/media/replace_card.svg": "/aspire-test/static/media/replace_card.d14b399169b6c3aa7cfe66d185c8c99d.svg",
+    "static/media/payments.svg": "/aspire-test/static/media/payments.3b8b4549db2b84867ce8e922b1bbe38c.svg",
+    "static/media/gpay.svg": "/aspire-test/static/media/gpay.54764838d5b3a13389ee3ff9a6bb84c6.svg",
+    "static/media/logo.svg": "/aspire-test/static/media/logo.32032391fd996da2defb1413db2ba3b3.svg",
+    "static/media/card.svg": "/aspire-test/static/media/card.4486fd492f220ed6b066cb545a2c9eed.svg",
+    "static/media/megaphone_logo.svg": "/aspire-test/static/media/megaphone_logo.fcf8bdf3280f45ff506e3f636e398b79.svg",
+    "static/media/flight_logo.svg": "/aspire-test/static/media/flight_logo.b73ad47f0a8f4ba17804fba1ba30d3db.svg",
+    "static/media/credit.svg": "/aspire-test/static/media/credit.f6547591c2df3dd74aa79fe931e0f5df.svg",
+    "static/media/shop_logo.svg": "/aspire-test/static/media/shop_logo.1ae4a8be282ba3363c6d576bf7d1aa8a.svg",
+    "index.html": "/aspire-test/index.html",
+    "static/media/card_list_logo.svg": "/aspire-test/static/media/card_list_logo.6596a234193fe4f6f88bfcb8d2bfda3f.svg",
+    "static/media/cancel_card.svg": "/aspire-test/static/media/cancel_card.cdcc853057ffd1bf5d8eed5dfb006742.svg",
+    "static/media/eye_logo.svg": "/aspire-test/static/media/eye_logo.d5480cb992892db6a991169abf6d2e54.svg",
+    "static/media/circle_plus.svg": "/aspire-test/static/media/circle_plus.65d4fc46dd7acbf97c30a9976277e7c4.svg",
+    "static/media/down_arrow.svg": "/aspire-test/static/media/down_arrow.6120f65101a5c87261290d2d452dc806.svg",
+    "static/media/chevron_right.svg": "/aspire-test/static/media/chevron_right.b0577e9154ef085853ac.svg",
+    "main.98f86d34.css.map": "/aspire-test/static/css/main.98f86d34.css.map",
+    "main.0d304520.js.map": "/aspire-test/static/js/main.0d304520.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98f86d34.css",
+    "static/js/main.0d304520.js"
+  ]
+}
